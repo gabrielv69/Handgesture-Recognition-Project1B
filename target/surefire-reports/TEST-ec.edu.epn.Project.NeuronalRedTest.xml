@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="ec.edu.epn.Project.NeuronalRedTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="ec.edu.epn.Project.NeuronalRedTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -66,6 +66,6 @@
   </properties>
   <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Trained_model_when_system_on_then_ok" time="0.001"/>
   <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Created_model_when_system_on_then_ok" time="0"/>
-  <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Detected_gesture_when_system_on_then_ok" time="0.001"/>
+  <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Detected_gesture_when_system_on_then_ok" time="0"/>
   <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Tested_model_when_system_on_then_ok" time="0"/>
 </testsuite>
