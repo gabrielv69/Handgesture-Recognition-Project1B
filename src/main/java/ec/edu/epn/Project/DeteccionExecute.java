@@ -26,6 +26,9 @@ public class DeteccionExecute {
         int datosImagen [] = red.convertirToArray(imagen);
         double datosNormalizados [] = red.normalizar(datosImagen);
         red.mostrarArreglo(datosNormalizados);
-        red.determinarGesto(red.sumaValoresDatos(datosNormalizados),1);
+        System.out.println("Realizando Deteccion");
+        double deteccion = red.sumaValoresDatos(datosNormalizados);
+        System.out.println("Gesto: "+ deteccion);
+        //red.determinarGesto(red.sumaValoresDatos(datosNormalizados),1);
     }
 }
