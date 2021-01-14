@@ -20,17 +20,9 @@ public class Image {
         this.ruidoexterno = 1;
         this.blur =0;
         this.threshold = 0;
-
-        this.valores[0]=85;
-        this.valores[1]=172;
-        this.valores[2]=245;
-        this.valores[3]=100;
-        this.valores[4]=150;
-        this.valores[5]=200;
-        this.valores[6]=250;
-        this.valores[7]=90;
-        this.valores[8]=230;
-        this.valores[9]=256;
+        for (int i = 0; i < 10; i++) {
+            this.valores[i]=(int) (Math.random()*256);
+        }
 
     }
 

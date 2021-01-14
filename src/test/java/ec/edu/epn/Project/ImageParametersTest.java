@@ -18,8 +18,8 @@ public class ImageParametersTest {
     public static Iterable<Object[]> parameters(){
         List <Object[]> objects = new ArrayList<Object[]>();
         objects.add(new Object[]{50, 50, 50});
-        objects.add(new Object[]{50, 45, 500});
-        objects.add(new Object[]{500, 300, 50});
+        objects.add(new Object[]{200, 200, 200});
+        objects.add(new Object[]{300, 300, 300});
         return objects;
     }
 
