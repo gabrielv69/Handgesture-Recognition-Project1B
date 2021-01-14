@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Trained_model_when_system_on_then_ok" time="0"/>
-  <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Created_model_when_system_on_then_ok" time="0.001"/>
+  <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Trained_model_when_system_on_then_ok" time="0.001"/>
+  <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Created_model_when_system_on_then_ok" time="0"/>
   <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Detected_gesture_when_system_on_then_ok" time="0.001"/>
   <testcase classname="ec.edu.epn.Project.NeuronalRedTest" name="Tested_model_when_system_on_then_ok" time="0"/>
 </testsuite>
